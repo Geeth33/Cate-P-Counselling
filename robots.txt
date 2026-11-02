@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block common scan/bot paths that add no value
+Disallow: /*.json$
+
+# Sitemap location
+Sitemap: https://porterfield.ca/sitemap.xml

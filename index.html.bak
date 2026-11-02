@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cate Porterfield | Counselling Psychology</title>
+    <meta name="description"
+        content="Compassionate counselling for anxiety, health challenges, and life transitions. Virtual sessions across Alberta & British Columbia. In-person in Grande Prairie.">
+    <meta name="author" content="Cate Porterfield">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="porterfield-icon.png">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="porterfield-icon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body>
+
+    <!-- ============================================ -->
+    <!-- HEADER / NAVIGATION -->
+    <!-- ============================================ -->
+    <header id="header" class="site-header">
+        <div class="header-inner">
+            <a href="#home" class="logo" aria-label="Porterfield Psychological Corporation - Home">
+                <img src="logo-porterfield.png" onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='images/logo-porterfield.png';}" alt="Porterfield Psychological Corporation Logo" class="logo-image">
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="main-nav" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Overlay -->
+        <div class="mobile-nav-overlay" aria-hidden="true">
+            <nav class="mobile-nav" aria-label="Mobile Navigation">
+                <ul class="mobile-nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- SECTION 1 — HERO -->
+    <!-- ============================================ -->
+    <section id="home" class="hero-section">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <h1 class="hero-heading">Clarity<br>Connection<br>Change</h1>
+                <p class="hero-subheading">Compassionate counselling for anxiety, health challenges, and life
+                    transitions</p>
+                <a href="https://www.psychologytoday.com/ca/therapists/cate-porterfield-grande-prairie-ab/1834633" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
+                <p class="hero-detail">Virtual sessions across Alberta &amp; British Columbia · In-person in Grande
+                    Prairie</p>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="images/hero-relaxing.png" onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='hero-relaxing.png';}" alt="Calm nature scene with soft light" loading="eager">
+                </div>
+            </div>
+        </div>
+        <div class="hero-geometric geo-1"></div>
+        <div class="hero-geometric geo-2"></div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 2 — ABOUT -->
+    <!-- ============================================ -->
+    <section id="about" class="about-section">
+        <div class="section-inner about-grid">
+            <div class="about-image">
+                <div class="about-image-wrapper">
+                    <img src="images/cate-portrait.jpg" onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='cate-portrait.jpg';}" alt="Cate Porterfield Portrait" loading="eager">
+                </div>
+                <div class="about-geo-shape"></div>
+            </div>
+            <div class="about-content">
+                <p class="section-label">About Cate</p>
+                <h2 class="section-heading">Guiding You Toward Clarity and Resilience</h2>
+                <p>I work with people who are navigating change, difficult seasons, or looking for support as they make sense of what they are carrying. My own experiences with change and difficulty have shaped the way I show up for clients, with warmth, curiosity, humility, and genuine respect for each person's story.</p>
+                <p>I offer a supportive, collaborative space where you can be yourself and explore what might help you move forward. My approach is primarily person-centered, meaning I believe you are the expert in your own life. I also draw from narrative therapy, EMDR, mindfulness-informed practice, solution-focused therapy, and practical tools from cognitive behavior therapy when they are helpful and align with your goals.</p>
+                <p>You do not have to have everything figured out before reaching out for support. I aim to offer a supportive, collaborative space where you can be yourself, make sense of what you are carrying, and explore what might help you move forward. I look forward to meeting you and supporting you on your journey.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 3 — AREAS OF FOCUS (Services Grid) -->
+    <!-- ============================================ -->
+    <section id="services" class="services-section">
+        <div class="section-inner">
+            <div class="section-header">
+                <p class="section-label">What I Help With</p>
+                <h2 class="section-heading">Support for Life's Most Challenging Moments</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h3>Anxiety &amp; Chronic Stress</h3>
+                    <p>Living with persistent worry or tension can make even daily tasks feel overwhelming. Together,
+                        we'll explore the root of your anxiety and develop practical strategies to help you feel
+                        grounded and in control.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                        </svg>
+                    </div>
+                    <h3>Health-Related Challenges</h3>
+                    <p>A diagnosis, chronic illness, or health change can impact every part of your life. I offer
+                        compassionate support to help you process difficult emotions, adapt to new realities, and
+                        reclaim a sense of agency.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>
+                    </div>
+                    <h3>Life Transitions</h3>
+                    <p>Whether it's a career shift, relationship change, relocation, or loss, transitions can feel
+                        disorienting. Counselling can help you navigate uncertainty with greater clarity and confidence.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                        </svg>
+                    </div>
+                    <h3>Emotional Overwhelm</h3>
+                    <p>When emotions feel too big to manage, it's hard to think clearly or move forward. I'll help you
+                        understand what's beneath the surface and build the emotional resilience you need to regain
+                        balance.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                        </svg>
+                    </div>
+                    <h3>Self-Identity &amp; Personal Growth</h3>
+                    <p>If you're questioning who you are or who you want to become, you're not alone. I provide a
+                        reflective space where you can reconnect with your values, strengths, and sense of purpose.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3>Burnout</h3>
+                    <p>Burnout is more than exhaustion — it's a signal that something needs to change. Together, we'll
+                        identify the patterns draining your energy and build a path toward sustainable well-being.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 5 — FAQs -->
+    <!-- ============================================ -->
+    <section id="faq" class="faq-section">
+        <div class="section-inner">
+            <div class="section-header">
+                <p class="section-label">FAQs</p>
+                <h2 class="section-heading">Questions You Might Have</h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you offer virtual or in-person sessions?</span>
+                        <span class="faq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Psychological services are available virtually to individuals and couples across Alberta and British Columbia, with limited in-person appointments offered in Grande Prairie, Alberta.</p>
+                        <p>Virtual appointments are conducted through a secure, confidential video platform, providing convenient access to psychological services.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What are your fees?</span>
+                        <span class="faq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The fee is $200 per 50-minute session. Payment is due at the time of your appointment. If you have questions about fees or billing, please don't hesitate to reach out.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Are your services covered by insurance?</span>
+                        <span class="faq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Many extended health benefit plans cover counselling with a Canadian Certified Counsellor
+                            (CCC). I recommend checking with your insurance provider to confirm your specific coverage.
+                            I can provide receipts for you to submit directly to your provider.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What can I expect in the first session?</span>
+                        <span class="faq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The first session is about getting to know each other. I'll take time to understand your
+                            concerns, what brought you to counselling, and what feels most important to you right now.
+                            There's no pressure to share more than you're comfortable with — we move at your pace. By
+                            the end, we'll collaboratively outline a direction for our work together.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I book a session?</span>
+                        <span class="faq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can book a free 15-minute consultation or your first session via Psychology Today
+                            or by sending an email. I'll get back to you within 24 hours to confirm a time that works for you.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How many sessions will I need?</span>
+                        <span class="faq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The number of sessions varies from person to person and depends on your goals and
+                            circumstances. Some clients find value in short-term focused work (6–10 sessions), while
+                            others benefit from ongoing support. We'll regularly check in on your progress and adjust as
+                            needed.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is everything I share confidential?</span>
+                        <span class="faq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. Confidentiality is the foundation of our therapeutic relationship. What you share
+                            in session stays between us, with very limited exceptions required by law (such as risk of
+                            harm to yourself or others). I'll explain these boundaries clearly during our first meeting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 6 — CONTACT / BOOKING -->
+    <!-- ============================================ -->
+    <section id="contact" class="contact-section">
+        <div class="section-inner">
+            <div class="contact-info contact-info-centered">
+                <div class="section-header">
+                    <p class="section-label">Get in Touch</p>
+                    <h2 class="section-heading">Ready to Take the First Step?</h2>
+                </div>
+                <p class="contact-desc">Whether you're ready to begin or just have a few questions, I'd love to hear
+                    from you. Book a free 15-minute consultation — no commitment, no pressure — and let's explore
+                    how I can support you.</p>
+
+                <div class="contact-details">
+                    <div class="contact-detail-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <span><a href="mailto:cate@brioinc.ca"
+                                class="contact-link">cate@brioinc.ca</a></span>
+                    </div>
+                    <div class="contact-detail-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Grande Prairie, Alberta</span>
+                    </div>
+                    <div class="contact-detail-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                        <span>Virtual sessions across Alberta &amp; British Columbia</span>
+                    </div>
+                </div>
+
+                <div class="contact-actions">
+                    <a href="https://www.psychologytoday.com/ca/therapists/cate-porterfield-grande-prairie-ab/1834633" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================ -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo-porterfield-footer.png" onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='images/logo-porterfield-footer.png';}" alt="Porterfield Psychological Corporation Logo" class="footer-logo-img">
+                    <p class="footer-tagline">Counselling Psychology</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:cate@brioinc.ca" class="footer-link">cate@brioinc.ca</a>
+                    </p>
+                    <p>Grande Prairie, AB</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cate Porterfield Counselling. All rights reserved.</p>
+                <div class="footer-legal">
+                    <p>Developed by: <a href="https://web.facebook.com/geeth.nipunyasandaruwan" target="_blank"
+                            rel="noopener" class="footer-link">Geeth N. Sandaruwan</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js?v=2"></script>
+</body>
+
+</html>
